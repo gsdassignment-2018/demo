@@ -1,0 +1,8 @@
+/********Developer Note***********/
+1.The custom Object named 'Appointment__c' is child to Standard Object 'Contact' with a lookup relationship.
+2.A quick action named 'Book Appointment' on Contact launches a calendar where a user can see all appointments for a user.
+3.User can select 'Start Time' and 'End Time' from available time slots.
+4.When clicked on 'Save',an Appointment record is created and an Email is sent to Contact's Email Address.
+5.The reply to this email will come in SF and attaches under the Contact. 
+6.Email Template merge field replacement with Actual values is partially dynamic and it can only replace the merge fields available on Email Template UI.Some fields are currently not replaceable and are shown as blank values in Email Body.
+
