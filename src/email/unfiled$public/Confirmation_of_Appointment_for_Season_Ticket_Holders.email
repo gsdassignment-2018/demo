@@ -1,0 +1,13 @@
+<html>
+	<form>
+		<body>
+			<p>Hi {!Appointment__c.Contact__c},</p>
+			<p>Your appointment has been scheduled with {!Appointment__c.OwnerId} on {!Appointment__c.Appointment_Date__c} from {!Appointment__c.Start_Time__c} to {!Appointment__c.End_Time__c}.</p>
+			<p/>
+			<p><strong>Note:Kindly confirm the time of the meeting by typing either "Yes","Confirmed","Approved" or "Acknowledged"</strong></p>
+			<p/>
+			<p>Thanks</p>
+			<p/>
+		</body>
+	</form>
+</html>

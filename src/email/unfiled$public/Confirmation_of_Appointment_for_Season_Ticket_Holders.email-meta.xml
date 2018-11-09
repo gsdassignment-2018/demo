@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Confirmation of Appointment for Season Ticket Holders</name>
+    <style>none</style>
+    <subject>Confirmation of Appointment - {!Appointment__c.Name}</subject>
+    <textOnly>Hi {!Appointment__c.Contact__c},
+
+Your appointment has been scheduled with {!Appointment__c.OwnerId} on {!Appointment__c.Appointment_Date__c} from {!Appointment__c.Start_Time__c} to {!Appointment__c.End_Time__c}.
+
+Note:Kindly confirm the time of the meeting by typing either &quot;Yes&quot;,&quot;Confirmed&quot;,&quot;Approved&quot; or &quot;Acknowledged&quot;
+
+Thanks</textOnly>
+    <type>custom</type>
+</EmailTemplate>
